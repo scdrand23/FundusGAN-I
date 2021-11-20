@@ -179,6 +179,10 @@ train(model=unet, optimizer=unet_opt,
 .  
 
     
+.
+.
+.
+.  
 
 
     Epoch 382: Step 13005: U-Net loss: 0.06173957884311676
@@ -297,24 +301,24 @@ train_pix2pix(model=model, optimizer=optimizer, criterion=pix2pix_criteria, data
               device='cuda')
 ```
 
-    Pretrained initial state
+    Loading pretrained initial state
     
 
 
     
-![png](output_21_1.png)
-    
-
-
-
-    
-![png](output_21_2.png)
+![png](images/output_21_1.png)
     
 
 
 
     
-![png](output_21_3.png)
+![png](images/output_21_2.png)
+    
+
+
+
+    
+![png](images/output_21_3.png)
     
 
 
@@ -323,19 +327,19 @@ train_pix2pix(model=model, optimizer=optimizer, criterion=pix2pix_criteria, data
 
 
     
-![png](output_21_5.png)
+![png](images/output_21_5.png)
     
 
 
 
     
-![png](output_21_6.png)
+![png](images/output_21_6.png)
     
 
 
 
     
-![png](output_21_7.png)
+![png](images/output_21_7.png)
     
 
 
@@ -344,7 +348,7 @@ train_pix2pix(model=model, optimizer=optimizer, criterion=pix2pix_criteria, data
 
 
     
-![png](output_21_9.png)
+![png](images/output_21_9.png)
     
 
 
