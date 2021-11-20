@@ -106,7 +106,7 @@ train(model=unet, optimizer=unet_opt,
 
 
     
-![png](output_12_1.png)
+![png](images/output_12_1.png)
     
 
 
