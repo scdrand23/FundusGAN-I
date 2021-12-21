@@ -1,3 +1,9 @@
+**Abstract**: The two major challenges in applying deep learning to develop a computer-aided diagnosis for retinal images is lack of access to enough amount of annotated data and legal concerns regarding patient privacy. Due to the expertise needed to annotate retinal images and the legal issue raised when using patient image data, it is difficult to obtain sufficient amount of labeled retinal images. Various kinds of effort are being made to increase the amount of data either by augmenting training images or by synthesizing real-looking retinal images. However, augmentation is limited to the amount of available data and it doesn't solve the concern of patient privacy. In this paper, we propose a GAN based fundus image synthesis method (FundusGAN) that generates synthetic training images to solve the above problems. The proposed method is an improved way of generating retinal images by following a two-step generation process which involves first training a segmentation network to extract the vessel tree followed by vessel tree to fundus image-to-image translation using unsupervised generative attention networks with adaptive layer-instance normalization. Our experiments result shows that the proposed fundusGAN exceeds state-of-the-art generative models for retinal image synthesis in different GAN metrics. Our method also validates that generated retinal images can be used to train retinal image classifiers for eye diseases diagnosis.
+
+
+
+
+
 # How to run?
 ## FundusGAN-I
 
