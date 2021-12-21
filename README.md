@@ -5,8 +5,9 @@
 
 
 # How to run?
-## FundusGAN-I
+## FundusGAN-I (Colab-version)
 
+Connecting to drive 
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
