@@ -1,4 +1,5 @@
-# FundusGAN-I
+# How to run?
+## FundusGAN-I
 
 ```python
 from google.colab import drive
